@@ -192,9 +192,10 @@ function showResults() {
       "verilen cevap " + item.userAnswer
     );
 
+    resultQuestionDiv.classList.add("mt-3")
     currentAnswerDiv.classList.add("text-2xl" ,"border-2", "border-yellow-50", "p-2", "rounded-lg", "bg-green-50" ,"text-center","mx-auto");
     userAnswerDiv.classList.add("text-2xl", "border-2", "border-yellow-50", "p-2", "rounded-lg", "bg-green-50","text-center","mx-auto")
-    resultQuestionP.classList.add("text-2xl", "text-center" ,"pb-4" ,"pt-4")
+    resultQuestionP.classList.add("text-2xl", "text-center" ,"mb-3")
 
     resultQuestionDiv.appendChild(resultQuestionP);
     resultQuestionP.appendChild(resultQuestionContent);
