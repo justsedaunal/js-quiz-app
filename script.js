@@ -192,8 +192,8 @@ function showResults() {
       "verilen cevap " + item.userAnswer
     );
 
-    currentAnswerDiv.classList.add("text-2xl" ,"border-2", "border-yellow-50", "p-2", "rounded-lg", "bg-green-50" ,"text-center");
-    userAnswerDiv.classList.add("text-2xl", "border-2", "border-yellow-50", "p-2", "rounded-lg", "bg-green-50","text-center")
+    currentAnswerDiv.classList.add("text-2xl" ,"border-2", "border-yellow-50", "p-2", "rounded-lg", "bg-green-50" ,"text-center","w-2/4","mx-auto");
+    userAnswerDiv.classList.add("text-2xl", "border-2", "border-yellow-50", "p-2", "rounded-lg", "bg-green-50","text-center","w-2/4","mx-auto")
     resultQuestionP.classList.add("text-2xl", "text-center" ,"pb-4" ,"pt-4")
 
     resultQuestionDiv.appendChild(resultQuestionP);
